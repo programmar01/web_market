@@ -78,7 +78,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 15rem;
+    gap: 13rem;
     padding: 100px 0px;
 }
 
@@ -98,7 +98,7 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 1.5rem;
+    gap: 3rem;
 }
 
 .first_main{
@@ -128,8 +128,9 @@ hr{
 .second_main{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    padding-right: 100px;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-left: 150px;
 }
 
 .material-symbols-outlined {
@@ -178,4 +179,21 @@ hr{
 .second_card h5{
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    background: #0bbeb5;
+    color: white;
+    width: 130px;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1000ms ease-in-out;
+}
+
+button:hover{
+    background-color: transparent;
+    border: #0bbeb5 2px solid;
 }
