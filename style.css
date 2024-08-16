@@ -24,6 +24,7 @@ header {
     align-items: center;
     color: #0bbeb5;
     font-size: 1.5rem;
+    padding: 50px;
 }
 
 nav p{
@@ -59,4 +60,122 @@ ol{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.nav_lists a{
+    text-decoration: none;
+    color: #0bbeb5;
+}
+
+h5{
+    color: #0bbeb5;
+    font-size: 8px;
+}
+
+
+main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15rem;
+    padding: 100px 0px;
+}
+
+hr{
+    width: 70px;
+    border: none;
+    border-bottom: 1px solid #0bbeb5;
+}
+
+.title_color{
+    color: #0bbeb5;
+}
+
+.abt_designs{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+
+.first_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.first_main img{
+    border-radius: 40px;
+    -webkit-box-shadow: 40px 40px 45px 0px #0bbeb5;
+    -moz-box-shadow: 40px 40px 45px 0px #0bbeb5;
+    box-shadow: 40px 40px 45px 0px #0bbeb5;
+}
+
+
+.first_cards_section{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.second_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 100px;
+}
+
+.material-symbols-outlined {
+    font-size: 7rem;
+    color: #0bbeb5;
+}
+
+.first_cards_section h4,h5,p{
+    color: white;
+}
+
+.first_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.first_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.second_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    width: 250px;
+    height: 275px;
+    background: linear-gradient(#0c0c0c, #073633);
+    border-radius: 5px;
+    text-align: center;
+    gap: 1rem;
+}
+
+.second_card h5{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
