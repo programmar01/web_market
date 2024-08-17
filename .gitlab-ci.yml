@@ -1,0 +1,20 @@
+image: gcc
+
+build:
+  stage: build
+  script:
+  - ./configure
+  - mkdir build && cd $_
+  - cmake ..
+  - make -sj8
+artifacts:
+  paths:
+  - "build/*.elf"
+
+deploy:
+  image: artifactory
+  variables:
+  - DO_NOT_CLONE: 1  ## WANT THIS OPTION
+  stage: deploy
+  script:
+  - push_artifacts build/*.elf
